@@ -1,21 +1,21 @@
-# wizard-demo
+# Nombre del Proyecto
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descripción
 
-## Project Setup
+Proyecto con Vue para validacion de datos de formulario
 
-```sh
+## Instalación
+
+Pasos para instalar y ejecutar el proyecto localmente:
+
+1. Clona el repositorio desde GitHub:
+
+```bash
+
+cd tu_proyecto
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```

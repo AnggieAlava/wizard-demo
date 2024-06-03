@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
+import OtpValidation from './components/OtpValidation.vue';
 </script>
 
 <template>
@@ -10,14 +10,8 @@ import { RouterLink, RouterView } from 'vue-router';
       src="@/assets/logo.png"
       width="125"
       height="125" />
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">OTP</RouterLink>
-        <RouterLink to="/form">RUC</RouterLink>
-      </nav>
-    </div>
   </header>
-
-  <RouterView />
+  <main>
+    <OtpValidation />
+  </main>
 </template>
