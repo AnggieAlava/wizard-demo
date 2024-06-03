@@ -32,6 +32,20 @@
       <v-btn color="success" class="mr-4" @click="verifyCode">
         Validar Codigo
       </v-btn>
+
+      <v-text-field
+        v-if="id"
+        v-model="ruc"
+        :rules="rucRules"
+        label="Número de RUC"
+        required
+        append-icon="mdi-magnify">
+        <template v-slot:append>
+          <RouterLink to="/form">
+            <v-icon>mdi-magnify</v-icon>
+          </RouterLink>
+        </template>
+      </v-text-field>
     </v-form>
   </div>
 </template>
@@ -47,6 +61,9 @@ export default {
     phoneRules: [(v) => !!v || 'El número telefónico es requerido'],
     code: '',
     codeRules: [(v) => !!v || 'El código code es requerido'],
+    ruc: '',
+    rucRules: [(v) => !!v || 'El número de RUC es requerido'],
+    id: null,
   }),
   methods: {
     async getCode() {

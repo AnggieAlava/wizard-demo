@@ -1,9 +1,9 @@
 <script setup>
-import OtpRequest from '../components/OtpRequest.vue';
+import OtpValidation from '../components/OtpValidation.vue';
 </script>
 
 <template>
   <main>
-    <OtpRequest />
+    <OtpValidation />
   </main>
 </template>

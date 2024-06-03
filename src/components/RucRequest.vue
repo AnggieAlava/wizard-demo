@@ -26,7 +26,7 @@
         label="Nombre Comercial"
         required></v-text-field>
       <v-text-field v-model="address" label="Dirección" required></v-text-field>
-      <v-btn type="submit">Actualizar Lead</v-btn>
+      <v-btn type="submit">Crear Demo</v-btn>
     </v-form>
   </v-container>
 </template>
