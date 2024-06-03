@@ -13,8 +13,8 @@ import { RouterLink, RouterView } from 'vue-router';
 
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/form">Form</RouterLink>
+        <RouterLink to="/">OTP</RouterLink>
+        <RouterLink to="/form">RUC</RouterLink>
       </nav>
     </div>
   </header>

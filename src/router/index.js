@@ -1,19 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import FormView from '../views/FormView.vue';
+import FirstView from '../views/FirstView.vue';
+import SecondView from '../views/SecondView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView,
+      name: 'FirstView',
+      component: FirstView,
     },
     {
       path: '/form',
-      name: 'form',
-      component: FormView,
+      name: 'SecondView',
+      component: SecondView,
     },
   ],
 });
